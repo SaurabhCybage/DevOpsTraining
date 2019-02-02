@@ -1,0 +1,106 @@
+ 1  ec2-user
+    2  cd /opt
+    3  mkdir p- ansible.demo
+    4  cd ansible.demo/
+    5  yum isntall git -y
+    6  cd..
+    7  yum install git -y
+    8  hostname
+    9  mkdir ./gitdemo
+   10  cd ..
+   11  mkdir opt/gitDemo
+   12  mkdir gitDemo
+   13  cd gitDemo/
+   14  git init
+   15  git add ReadMe.md
+   16  git commit -m "frist commit"
+   17  mkdir ansibleDemo
+   18  ls
+   19  ls -l
+   20  git init
+   21  git commit -m "first commit"
+   22  git remote add origin https://github.com/SaurabhCybage/DevOpsTraining.git
+   23  git push -u origin master
+   24  cd ansibleDemo/
+   25  git add
+   26  cd ..
+   27  git add
+   28  git add *
+   29  git commit -m "frist commit"
+   30  git addd
+   31  git add
+   32  git add.
+   33  git add.
+   34  yes
+   35  ls
+   36  git init
+   37  yum install tree -y
+   38  tree
+   39  mkdir /ansibleDemo/ansibleDemo.txt
+   40  cd ansibleDemo/
+   41  touch ansibleDemo.txt
+   42  cd ..
+   43  tree
+   44  cd ..
+   45  tree
+   46  rm ansible.demo/
+   47  rmdir ansible.demo/
+   48  rm -rf ansible.demo/
+   49  tree
+   50  cd gitDemo/
+   51  touch ansibleDemo.txt
+   52  git status
+   53  git add ansibleDemo.txt
+   54  cd ..
+   55  git status
+   56  cd gitDemo/
+   57  tree
+   58  git status
+   59  tree
+   60  history
+   61  vi ansibleDemo.txt
+   62  tree
+   63  vi ansibleDemo.txt
+   64  tree
+   65  cd ansibleDemo
+   66  vi ansibleDemo.txt
+   67  rm ansibleDemo.txt
+   68  tree
+   69  cd..
+   70  cd..
+   71  tree
+   72  cd ..
+   73  tree
+   74  cd ansibleDemo
+   75  tree
+   76  cd /rtc/yum.repos.d
+   77  cd /etc/yum.repos.d
+   78  vi ansible.repo
+   79  yum update -y
+   80  rpm -Uvh https://dl.fedoraproject.org/pub/epel/epel-release-latest-7.noarch.rpm
+   81  yum -y install ansible
+   82  ansible --version
+   83  yum update ansible
+   84  ansible --version
+   85  cd /etc/ansible/hosts
+   86  cd /etc/ansible/
+   87  tree
+   88  vi hosts
+   89  touch /root/.ssh/server1.pem
+   90  cd /root/.ssh
+   91  vi server1.pem
+   92  tree
+   93  cd etc/
+   94  cat server1.pem
+   95  ssh -i server1.pem ec2-user@172.31.21.190
+   96  chmod 600 server1.pem
+   97  ssh -i server1.pem ec2-user@172.31.21.190
+   98  vi server1.pem
+   99  cd etc/
+  100  ansible all -m raw -a 'sudo uptime'
+  101  tree
+  102  cd /opt/gitDemo
+  103  tree
+  104  cat ansibleDemo.txt
+  105  history
+

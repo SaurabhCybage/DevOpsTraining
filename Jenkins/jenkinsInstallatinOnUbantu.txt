@@ -15,3 +15,10 @@ Jenkins Installation
    16  netstat -tulpn
    17  curl http://localhost:8080
 
+   --------------maven--------------------
+    42  sudo apt-get update
+   43  sudo apt-get install maven3
+   44  sudo ln -s /usr/share/maven3/bin/mvn /usr/bin/mvn
+   45  mvn -v
+   export MAVEN_HOME=/usr/share/maven3
+   echo $MAVEN_HOME

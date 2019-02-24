@@ -1,0 +1,17 @@
+Jenkins Installation
+    1  cd /opt
+        2  wget -q -O - http://pkg.jenkins-ci.org/debian/jenkins-ci.org.key | sudo apt-key add -
+    3  echo "deb http://pkg.jenkins-ci.org/debian binary/" | sudo tee -a /etc/apt/sources.list.d/jenkins.list
+    4  sudo apt-get update
+    5  sudo apt-get install jenkins
+    6.sudo apt-get install openjdk-8-jdk
+
+    7  java -version
+    8  service jenkins start
+    9  ps -ef |grep jenkins
+
+
+   15  service jenkins status
+   16  netstat -tulpn
+   17  curl http://localhost:8080
+
